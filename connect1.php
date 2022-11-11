@@ -6,7 +6,7 @@
 
     if(!empty($email)){
         if(!empty($password)){
-            $host = "localhost:3306";
+            $host = "localhost:3306"; //localhost
             $dbusername = "root";
             $dbpassword = "";
             $dbname = "pharmacity";

@@ -4,7 +4,7 @@
     
     
     //Database Connection here
-    $con = new mysqli("localhost:3306","root","","pharmacity");
+    $con = new mysqli("localhost:3306","root","","pharmacity"); //username
     if($con->connect_error){
         die("Failed to connect : " .$con->connect_error);
     }else{
